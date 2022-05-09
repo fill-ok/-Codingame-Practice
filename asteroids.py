@@ -42,4 +42,4 @@ for let in coor.items():
         thd[end[0]] = ''.join(u)
 
 # print result
-for _ in thd:print(_)
+for _ in thd: print(_)
