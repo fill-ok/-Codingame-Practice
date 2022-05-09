@@ -32,7 +32,7 @@ for let in coor.items():
     first = math.floor(((let[1][1][0]-let[1][0][0]) /(t2-t1)) *(t3-t2))
     sec   = math.floor(((let[1][1][1]-let[1][0][1]) /(t2-t1)) *(t3-t2))
 
-    end = let[1][1][0]+first, let[1][1][1]+sec
+    end = let[1][1][0] + first, let[1][1][1] + sec
 
     if end[0] < 0 or end[1] < 0 or end[0] >= w or end[1] >= w: pass
     else:
