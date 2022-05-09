@@ -36,7 +36,7 @@ for let in coor.items():
 
     if end[0] < 0 or end[1] < 0 or end[0] >= w or end[1] >= w: pass
     else:
-        # replace the founded pos witch the letter
+        # replace the founded pos with the letter
         u = [_ for _ in thd[end[0]]]
         u[end[1]] = let[0]
         thd[end[0]] = ''.join(u)
