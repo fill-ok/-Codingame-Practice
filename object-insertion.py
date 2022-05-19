@@ -26,8 +26,6 @@ def way(row_o, cal_o, row_g, cal_g):
                 # map cal from ojb[] to grid[]
                 if cal_o > cal: cal_g -= abs(cal_o - cal)
                 if cal_o < cal: cal_g += abs(cal_o - cal)
-                
-
 
                 # [row][cal] have to be on grid
                 if row_g+row<c and row_g+row>=0 and cal_g<d and cal_g>=0:
